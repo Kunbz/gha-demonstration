@@ -1,0 +1,15 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/health")
+def read_health():
+    return {"status": "ok"}
+
+@app.get("/")
+def read_root():
+    return {"payload": {
+        "message": "Hello, World!",
+        "status": "success"
+    }}
