@@ -7,7 +7,7 @@ on:
 
 env:
     DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-    REPO_NAME: ${{ secrets.DOCKER_PASSWORD }}
+    REPO_NAME: gha-demonstration
 
 jobs:
   build:
