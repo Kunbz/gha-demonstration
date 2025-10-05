@@ -28,7 +28,7 @@ jobs:
 
     - name: Get short SHA using action
       id: short_sha_action
-      uses: benjlevesque/short-sha@v1.2.0 #
+      uses: benjlevesque/short-sha@v3.0
 
 
     - name: Build and push Docker image
